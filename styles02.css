@@ -1,0 +1,47 @@
+#grad {
+    background-image: linear-gradient(to top right, #00BFFF, pink, white);
+  }
+
+/*
+#gradbutton {
+    background-image: linear-gradient(to top left, rgb(236, 184, 11), gold, white);
+}
+*/
+
+  html{
+      height: 100%;
+  }
+
+  body {
+      height: 100%;
+      margin: 0;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+  }
+
+  h1{
+      text-align: center;
+  }
+
+  p {
+      color: rgb(193, 29, 226);
+      background-color: rgb(29, 212, 194, .3);
+      padding: .5%;
+      font-style: italic;
+      font-weight: bold;
+      font-size: 20px;
+      text-align: center;
+
+  }
+
+  button{
+    border-radius: 25px;
+    background-image: linear-gradient(to top left, rgb(236, 184, 11), white);
+    background-position: left top;
+    background-repeat: repeat;
+    padding: 20px;
+    width: 200px;
+    height: 150px
+    
+
+  }
